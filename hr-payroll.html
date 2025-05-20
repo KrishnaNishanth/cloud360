@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud360ERP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <!--Swiper.js-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@5.3.8/css/swiper.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section class="Home-Page">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg fixed-top pb-2">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-lg-4" href="#">
+                    <img src="images/Cloud_360_Erp_India.webp" alt="">
+                </a>
+
+                <!-- toggler button -->
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+                    <!-- offcanvas-header -->
+                    <div class="offcanvas-header">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/Cloud_360_Erp_India.webp" alt="">
+                        </a>
+                        <!-- cancell button X -->
+                        <button type="button" class="btn-close shadow-none " data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <!--navbar body-->
+                    <div class="offcanvas-body justify-content-end">
+                        <ul class="navbar-nav mb-2 mb-lg-0 me-3">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active fw-semibold" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown me-3">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">ERP</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="hr-payroll.html">HR & Pay Roll</a></li>
+                                            <li><a class="dropdown-item" href="acc-fin.html">Accounting and Finance
+                                                    Mangement</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="inventory.html">Inventory Mangement</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="fsm.html">Field Service Mangement</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">CPM</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="sales.html">Sales</a></li>
+                                            <li><a class="dropdown-item" href="purchasing.html">Purchasing</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item" href="pos.html">POS</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a class="dropdown-item dropdown-toggle" href="#">Digital Marketing</a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="web-development.html">Web Development</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="smm.html">Social Media Marketing</a></li>
+                                            <li><a class="dropdown-item" href="seo.html">Search Engine Optimization</a>
+                                            </li>
+                                            <li><a class="dropdown-item" href="email-marketing.html">Email Marketing</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link active fw-semibold" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link active fw-semibold" href="client.html">Clients</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link active fw-semibold" href="partners.html">Partners</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link active fw-semibold" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!--Service Cover-->
+    <section class="services-cover mb-5">
+        <div class="services-cover-img">
+            <img src="images/about-cover.webp" width="100%" height="250px" alt="">
+            <div class="services-overlay"></div>
+            <div class="services-cover-title">
+                <h1 data-aos="zoom-in" data-aos-delay="100">HR & Pay Roll</h1>
+                <p><a href="index.html">Home</a> / <a href="hr-payroll.html">HR & Pay Roll</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!--HR & PR-->
+    <section class="container">
+        <div class="services-box mt-5 mb-3">
+            <h2 class="text-uppercase fw-bold text-center">HR & Pay Roll</h2>
+            <div class="underline my-4" id="underline-center">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="swiper-container service-card">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide service-card-box">
+                    <p>HR documents and employee records</p>
+                </div>
+                <div class="swiper-slide service-card-box">
+                    <p>Working time and work schedules</p>
+                </div>
+                <div class="swiper-slide service-card-box">
+                    <p>End-of-service payments and payroll reserves</p>
+                </div>
+                <div class="swiper-slide service-card-box">
+                    <p>Issued loans and interest</p>
+                </div>
+                <div class="swiper-slide service-card-box">
+                    <p>Compliance with UAE Labor Law</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HR & Payroll Features-->
+    <section class="container">
+        <div class="mt-5">
+            <h2 class="text-uppercase fw-bold">HR & Payroll Features</h2>
+            <div class="underline my-4">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Left Column -->
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                    <div class="row">
+                        <!-- Column 1 -->
+                        <div class="col-md-6">
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Employment</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Vacations</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Flexible calculation of
+                                accruals and deductions</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Loans to employees</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Shift schedules</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Timesheets</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Daily working time</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Vacation balances</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Employee settlement
+                                reporting</div>
+                        </div>
+
+                        <!-- Column 2 -->
+                        <div class="col-md-5">
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Termination</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Sick leaves</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Payroll reserves</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> End-of-service provisions
+                            </div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Time and Labor Management
+                            </div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> HR Management for core
+                                processes</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Employee accruals and
+                                deductions</div>
+                            <div class="feature-item"><i class="bi bi-check-circle-fill"></i> Balances of end-of-service
+                                provisions</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Form-->
+                <div class="quote-form col-10 col-md-8 col-lg-5 mt-5 ms-4" data-aos="fade-left" data-aos-delay="200">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <select required>
+                            <option value="" disabled selected>Select A Service</option>
+                            <option value="interior">Interior Design</option>
+                            <option value="renovation">Renovation</option>
+                            <option value="consulting">Consultation</option>
+                        </select>
+                        <textarea placeholder="Message" required></textarea>
+                        <button type="submit">Request A Quote</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-box col-lg-4 mt-3" data-aos="fade-right" data-aos-delay="100">
+                <div class="info-img">
+                    <i class="bi bi-whatsapp"></i>
+                </div>
+                <div class="info-details">
+                    <p class="mb-2">Call to ask any question</p>
+                    <p id="cell-no">
+                        <a href="tel:+919894164232">+91 98941 64232</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--HR contents-->
+    <section class="container">
+        <div class="mt-5">
+            <h2 class="text-uppercase fw-bold">HR and Payroll Software</h2>
+            <div class="underline my-4">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+            <p><i class="bi bi-caret-right-fill"></i> Irrespective of your industry, construction, trading,
+                manufacturing, or warehouse, CLOUD360ERP payroll
+                accounting software can help you streamline your HR and payroll processes.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> Built for both small businesses and enterprises according to IFRS
+                standards, CLOUD360ERP HR software
+                comes with such features as flexible payroll calculation, vacation and sick leaves, employee loans,
+                timesheets, expense planning, and WPS salary files. In addition, it is integrated with CLOUD360ERP
+                Accounting and Finance module to manage business finances better.</p>
+        </div>
+
+        <div class="contact-btn mt-4" data-aos="fade-up" data-aos-delay="100">
+            <button type="button">Request A Quote</button>
+        </div>
+
+        <div class="mt-5">
+            <h2 class="text-uppercase fw-bold">HR and Payroll Records</h2>
+            <div class="underline my-4">
+                <div class="box"></div>
+            </div>
+        </div>
+
+        <div class="content" data-aos="fade-up" data-aos-delay="100">
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Employment: </span>Keep track of
+                all the employment records, labor contract details, personal documents, salary, designation, and role of
+                the employee.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Accruals and Deductions:
+                </span>Stay atop the accruals and deductions of every employee in real-time using the cloud version of
+                CLOUD360ERP. You can even optimize the calculation as required.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Termination: </span>Manage employee
+                terminations and even track the balances to be paid in the final settlement and
+                company
+                assets the employee needs to return.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Sick Leaves and Vacation:
+                </span>Track how many days an employee was on vacation and sick leaves. Make deductions for
+                unpaid leaves or transfer unused leaves to the next year</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Employee Loans: </span>Monitor the
+                loans given to employees, their status, interest paid, and pending amount in one
+                place.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Payroll Reserves: </span>Set aside
+                a specific amount of funds for employee payrolls and taxes to prevent disruptions in
+                salary payments.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> End-of-Service Provisions:
+                </span>Ensure seamless management of the end-of-service provisions, including gratuity, per
+                UAE’s labor laws.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Shift Schedules: </span>Streamline
+                your workforce by managing shift schedules and ensuring optimal usage of human
+                resources.</p>
+
+            <p><i class="bi bi-caret-right-fill"></i> <span style="color: #f4a622;"> Personnel Records: </span>Keep
+                employee records, including their names, contact information, documents, and compensation
+                packages, in one place.</p>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="mt-5" data-aos="fade-up" data-aos-delay="100">
+        <div class="footer">
+
+            <!-- Brand / Description -->
+            <div class="column brand-column">
+                <h2 class="fw-bold">Cloud360ERP</h2>
+                <p>Cloud360ERP support professionals are responsible for maintaining, troubleshooting and improving the
+                    performance and functionality of the ERP, CRM and POS.</p>
+            </div>
+
+            <!-- Regional Office -->
+            <div class="column">
+                <h3>Our Regional Head Office</h3>
+                <p><i class="fas fa-location-dot"></i> Off#909, The Metropolis Tower, Business Bay, Dubai, U.A.E</p>
+                <p><a href="mailto:info@cloud360erp.com"><i class="fas fa-envelope"></i> info@360clouderp.com</a></p>
+                <p><a href="tel:+97145895255"><i class="fas fa-phone"></i> +971 4 589 5255</a></p>
+            </div>
+
+            <!-- Branch Office -->
+            <div class="column">
+                <h3>Branch Office</h3>
+                <p><i class="fas fa-location-dot"></i> No.3B/3275, Ramakrishnapuram, Opp to manimandapam, Pudukkottai
+                    Road, Thanjavur, Tamil Nadu – 613007</p>
+                <p><a href="mailto:info@cloud360erp.com"><i class="fas fa-envelope"></i> info@cloud360erp.com</a></p>
+                <p><a href="tel:+919894164232"><i class="fab fa-whatsapp"></i> +91 98941 64232</a></p>
+            </div>
+
+            <!-- Popular Links -->
+            <div class="column">
+                <h3>Popular Links</h3>
+                <a href="index.html"><i class="fas fa-arrow-right"></i> Home</a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i> About</a>
+                <a href="hr-payroll.html"><i class="fas fa-arrow-right"></i> HR & Pay Roll</a>
+                <a href="sales.html"><i class="fas fa-arrow-right"></i> Sales</a>
+                <a href="purchasing.html"><i class="fas fa-arrow-right"></i> Purchasing</a>
+                <a href="web-development.html"><i class="fas fa-arrow-right"></i> Web Development</a>
+                <a href="seo.html"><i class="fas fa-arrow-right"></i> SEO</a>
+                <a href="smm.html"><i class="fas fa-arrow-right"></i> Social Media Marketing</a>
+            </div>
+
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer bottom-bar">
+            © Cloud360ERP. All Rights Reserved. Designed by <a href="#">Cloud360ERP</a>
+        </div>
+    </section>
+
+
+</body>
+<script src="script.js"></script>
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<!--Swiper.js-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@5.3.8/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        loop: true,
+        slidesPerView: 4,
+        coverflowEffect: {
+            rotate: 42,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 10
+            },
+            // when window width is >= 768px
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20
+            },
+            // when window width is >= 1024px
+            1024: {
+                slidesPerView: 4,
+                spaceBetween: 30
+            }
+        }
+    });
+</script>
+<script>
+    AOS.init();
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+
+</html>
